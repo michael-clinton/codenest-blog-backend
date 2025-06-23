@@ -13,7 +13,7 @@ dotenv.config();
 const app = express();
 
 app.use(cors({
-  origin: ["http://localhost:5173", "https://codenest-blog-frontend.vercel.app"],
+  origin: ["http://localhost:5173", "https://codenest-blog-frontend.vercel.app", "https://codenest-blog-frontend-tirb.vercel.app"],
   credentials: true,
 }));
 
